@@ -87,8 +87,7 @@ Layer 4: Conductive copper or similar material for efficient signal flow.
 Layer 5: Insulation to separate layers and prevent interference.
 Layer 6 (Base): Mechanical support with a honeycomb structure for stability and heat dissipation.
 
-![antennas](https://github.com/user-attachments/assets/e9ff0736-a2f5-47e0-bacc-23b132544817)
-
+![antenna layers](https://github.com/user-attachments/assets/ecf1a19e-7c22-43a8-9bce-5fc6d13dffc2)
 
 ## Conclusion
 Starlink’s dish is a marvel of modern engineering, combining advanced electronics, phased array technology, and real-time processing to deliver high-speed internet. By understanding its components and operation, we can appreciate the complexity behind this revolutionary system.
