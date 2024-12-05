@@ -4,6 +4,8 @@ The Starlink satellite dish, also known as the "Dishy," is an advanced piece of 
 
 ## 1. Key Components of the Dish
 
+![dish design](https://github.com/user-attachments/assets/7bc62e44-68cf-4ae2-9619-6a8809249e84)
+
 ### 1.1. Motorized Mount
 Purpose:
 Aligns the dish toward the satellite constellation during the initial setup.
@@ -18,6 +20,8 @@ CPU: Processes incoming and outgoing data, manages the beamforming algorithm, an
 GPS Module: Locates the dish's position on Earth, ensuring it communicates with the correct satellite.
 Power Management: Distributes power to the antennas, motors, and electronics.
 
+![PCB](https://github.com/user-attachments/assets/9ec8eef5-7bbc-4906-95ff-945234ef062f)
+
 ### 1.3. Phased Array Antenna
 Structure:
 Top Layer: Contains ~1,280 individual antennas organized into a copper grid.
@@ -29,6 +33,8 @@ Beamforming:
 Antennas send and receive signals in many directions.
 By changing the timing (phase) of the signals sent by each antenna, the dish can "steer" its signal without moving.
 This technique allows precise targeting of satellites while maintaining a compact and durable design.
+
+![antennas](https://github.com/user-attachments/assets/e6e652ca-9333-4173-83a1-a3bde07e5145)
 
 ## 2. How Communication Works
 ### 2.1. Transmission Process (Sending Data)
@@ -72,14 +78,6 @@ Spectrum Sharing: The system is designed to coexist with other satellite network
 ### 5.3. Thermal Management
 The dish includes built-in heating elements to melt snow and prevent performance degradation in cold climates.
 
-## 6. Questions and Potential Additions
-Material Science:
-What materials are used in the six layers of each antenna, and how do they contribute to signal generation and reception?
-Signal Processing:
-How does the CPU handle simultaneous data streams from multiple satellites?
-Energy Efficiency:
-How much power does the dish consume during peak operation, and how is energy use optimized?
-
 ## 7. Visualizing the Starlink Dish
 Here’s a breakdown of the layers in the phased array system for easier visualization:
 Layer 1 (Top): Signal-emitting antennas.
@@ -88,6 +86,9 @@ Layer 3: Phase shifters to control the timing of signals for beamforming.
 Layer 4: Conductive copper or similar material for efficient signal flow.
 Layer 5: Insulation to separate layers and prevent interference.
 Layer 6 (Base): Mechanical support with a honeycomb structure for stability and heat dissipation.
+
+![antennas](https://github.com/user-attachments/assets/e9ff0736-a2f5-47e0-bacc-23b132544817)
+
 
 ## Conclusion
 Starlink’s dish is a marvel of modern engineering, combining advanced electronics, phased array technology, and real-time processing to deliver high-speed internet. By understanding its components and operation, we can appreciate the complexity behind this revolutionary system.
