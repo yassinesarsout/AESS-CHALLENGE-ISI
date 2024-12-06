@@ -27,9 +27,13 @@ We used a combination of sensors to determine the CubeSat's orientation and posi
 
 3. **Star Trackers**:
    - Star trackers capture images of stars and compare them with a star catalog, providing highly accurate orientation data. This is used for precise attitude control.
+     ![7](https://github.com/user-attachments/assets/2911b4d7-e8d6-425e-9cd0-a294a425077b)
+
 
 4. **Magnetometers**:
    - Magnetometers measure the strength and direction of the Earth's magnetic field. This helps us determine the CubeSat’s orientation in relation to the magnetic field, especially when other sensors may not provide enough precision.
+     ![8](https://github.com/user-attachments/assets/38a571e1-0134-488c-a524-3ff63e3fc248)
+
 
 5. **Gyroscopes and Inertial Measurement Units (IMUs)**:
    - Gyroscopes measure angular velocity, while IMUs combine this with acceleration data to track changes in orientation. These sensors provide real-time updates for fine-tuning attitude control.
